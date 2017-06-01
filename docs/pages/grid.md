@@ -515,7 +515,7 @@ Using these source ordering classes, you can shift columns around between our br
 
 ### Block Grids
 
-Block grids are a shorthand way to create equally-sized columns. Add a class of the format `.[size]-up-[n]` to change the number of columns within the row. By default, the max number of columns you can use with block grid are 8. Adding the `.column-block` class to columns will apply a bottom margin equal to the width of gutters.
+Block grids are a shorthand way to create equally-sized columns. Add a class of the format `.[size]-up-[n]` to change the number of columns within the row and the class `column` in each column. By default, the max number of columns you can use with block grid are 8. Combining the `column` class and the `.column-block` class to columns will apply a bottom margin equal to the width of gutters.
 
 <p>
   <a class="" data-open-video="30:07"><img src="{{root}}assets/img/icons/watch-video-icon.svg" class="video-icon" height="30" width="30" alt=""> Watch this part in video</a>
